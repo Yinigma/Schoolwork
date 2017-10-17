@@ -1,0 +1,1756 @@
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 6
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 7
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 8
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 9
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 10
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 11
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 12
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 13
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 14
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 15
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 16
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 17
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 18
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 19
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 20
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 21
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 22
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 23
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 24
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 25
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 26
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 27
+pattern: c.*ookie.bugnut.lopppppppppo.*
+plen: 31
+i: 29
+pattern: c.*ookie.bugnut.lopppppppppo.*
+plen: 31
+i: 30
+pattern: c.*ookie.bugnut.lopppppppppo.*
+sslab01 102 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:88:4: warning: implicit declaration of function 'free' [-Wimplicit-function-declaration]
+    free(temp);
+    ^
+fileParser.c:88:4: warning: incompatible implicit declaration of built-in function 'free'
+fileParser.c:112:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 103 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?lopppppppppo*/fdasfas
+lDex: 21
+rDex: 50
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?lopppppppppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?lopppppppppo*
+pattern: c*ookie?bugnut?lopppppppppo*
+plen: 29
+i: 0
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 2
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 3
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 4
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 5
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 6
+pattern: c.*ookie?bugnut?lopppppppppo*
+plen: 30
+i: 7
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 8
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 9
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 10
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 11
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 12
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 13
+pattern: c.*ookie.bugnut?lopppppppppo*
+plen: 30
+i: 14
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 15
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 16
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 17
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 18
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 19
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 20
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 21
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 22
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 23
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 24
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 25
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 26
+pattern: c.*ookie.bugnut.lopppppppppo*
+plen: 30
+i: 27
+pattern: c.*ookie.bugnut.lopppppppppo.*
+plen: 31
+i: 29
+pattern: c.*ookie.bugnut.lopppppppppo.*
+sslab01 104 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: c*ookie?bugnut?loppo*
+plen: 22
+i: 0
+pattern: c.*ookie?bugnut?loppo*
+plen: 23
+i: 2
+pattern: c.*ookie?bugnut?loppo*
+plen: 23
+i: 3
+pattern: c.*ookie?bugnut?loppo*
+plen: 23
+i: 4
+pattern: c.*ookie?bugnut?loppo*
+plen: 23
+i: 5
+pattern: c.*ookie?bugnut?loppo*
+plen: 23
+i: 6
+pattern: c.*ookie?bugnut?loppo*
+plen: 23
+i: 7
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 8
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 9
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 10
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 11
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 12
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 13
+pattern: c.*ookie.bugnut?loppo*
+plen: 23
+i: 14
+pattern: c.*ookie.bugnut.loppo*
+plen: 23
+i: 15
+pattern: c.*ookie.bugnut.loppo*
+plen: 23
+i: 16
+pattern: c.*ookie.bugnut.loppo*
+plen: 23
+i: 17
+pattern: c.*ookie.bugnut.loppo*
+plen: 23
+i: 18
+pattern: c.*ookie.bugnut.loppo*
+plen: 23
+i: 19
+pattern: c.*ookie.bugnut.loppo*
+plen: 23
+i: 20
+*** Error in `fileParser': free(): invalid pointer: 0x00000000024c8070 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x72563)[0x7f5c3aa46563]
+/lib64/libc.so.6(+0x77e56)[0x7f5c3aa4be56]
+/lib64/libc.so.6(+0x7865e)[0x7f5c3aa4c65e]
+fileParser[0x400af6]
+/lib64/libc.so.6(__libc_start_main+0xf0)[0x7f5c3a9f46d0]
+fileParser[0x400659]
+======= Memory map: ========
+00400000-00401000 r-xp 00000000 00:16 55103005                           /u/data/u93/bdenison/lab3-src/fileParser
+00600000-00601000 r--p 00000000 00:16 55103005                           /u/data/u93/bdenison/lab3-src/fileParser
+00601000-00602000 rw-p 00001000 00:16 55103005                           /u/data/u93/bdenison/lab3-src/fileParser
+024c8000-024e9000 rw-p 00000000 00:00 0                                  [heap]
+7f5c34000000-7f5c34021000 rw-p 00000000 00:00 0 
+7f5c34021000-7f5c38000000 ---p 00000000 00:00 0 
+7f5c3a7bd000-7f5c3a7d3000 r-xp 00000000 08:02 732                        /lib64/libgcc_s.so.1
+7f5c3a7d3000-7f5c3a9d2000 ---p 00016000 08:02 732                        /lib64/libgcc_s.so.1
+7f5c3a9d2000-7f5c3a9d3000 r--p 00015000 08:02 732                        /lib64/libgcc_s.so.1
+7f5c3a9d3000-7f5c3a9d4000 rw-p 00016000 08:02 732                        /lib64/libgcc_s.so.1
+7f5c3a9d4000-7f5c3ab6c000 r-xp 00000000 08:02 623                        /lib64/libc-2.22.so
+7f5c3ab6c000-7f5c3ad6c000 ---p 00198000 08:02 623                        /lib64/libc-2.22.so
+7f5c3ad6c000-7f5c3ad70000 r--p 00198000 08:02 623                        /lib64/libc-2.22.so
+7f5c3ad70000-7f5c3ad72000 rw-p 0019c000 08:02 623                        /lib64/libc-2.22.so
+7f5c3ad72000-7f5c3ad76000 rw-p 00000000 00:00 0 
+7f5c3ad76000-7f5c3ad98000 r-xp 00000000 08:02 618                        /lib64/ld-2.22.so
+7f5c3af66000-7f5c3af69000 rw-p 00000000 00:00 0 
+7f5c3af94000-7f5c3af97000 rw-p 00000000 00:00 0 
+7f5c3af97000-7f5c3af98000 r--p 00021000 08:02 618                        /lib64/ld-2.22.so
+7f5c3af98000-7f5c3af99000 rw-p 00022000 08:02 618                        /lib64/ld-2.22.so
+7f5c3af99000-7f5c3af9a000 rw-p 00000000 00:00 0 
+7ffd9d8e1000-7ffd9d902000 rw-p 00000000 00:00 0                          [stack]
+7ffd9d927000-7ffd9d92a000 r--p 00000000 00:00 0                          [vvar]
+7ffd9d92a000-7ffd9d92c000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+Aborted
+sslab01 105 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:72:6: error: expected identifier or '(' before '=' token
+  int = numAster = 0;
+      ^
+fileParser.c:75:11: error: 'numAster' undeclared (first use in this function)
+    conv[i+numAster]=='.';
+           ^
+fileParser.c:75:11: note: each undeclared identifier is reported only once for each function it appears in
+fileParser.c:87:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:87:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 106 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:72:6: error: expected identifier or '(' before '=' token
+  int = numAster = 0;
+      ^
+fileParser.c:75:11: error: 'numAster' undeclared (first use in this function)
+    conv[i+numAster]='.';
+           ^
+fileParser.c:75:11: note: each undeclared identifier is reported only once for each function it appears in
+fileParser.c:87:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:87:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 107 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:75:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='.';
+                    ^
+fileParser.c:78:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='.';
+                    ^
+fileParser.c:80:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='*';
+                    ^
+fileParser.c:83:20: warning: comparison between pointer and integer
+    conv[i+numAster]==pattern[i];
+                    ^
+fileParser.c:87:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:87:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 108 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+fileParser: malloc.c:2862: mremap_chunk: Assertion `((size + offset) & (_rtld_global_ro._dl_pagesize - 1)) == 0' failed.
+Aborted
+sslab01 109 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+fileParser: malloc.c:2862: mremap_chunk: Assertion `((size + offset) & (_rtld_global_ro._dl_pagesize - 1)) == 0' failed.
+Aborted
+sslab01 110 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:75:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='.';
+                    ^
+fileParser.c:78:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='.';
+                    ^
+fileParser.c:80:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='*';
+                    ^
+fileParser.c:83:20: warning: comparison between pointer and integer
+    conv[i+numAster]==pattern[i];
+                    ^
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 111 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: c*ookie?bugnut?loppo*
+sslab01 112 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:75:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='.';
+                    ^
+fileParser.c:78:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='.';
+                    ^
+fileParser.c:80:20: warning: assignment makes pointer from integer without a cast
+    conv[i+numAster]='*';
+                    ^
+fileParser.c:83:20: warning: comparison between pointer and integer
+    conv[i+numAster]==pattern[i];
+                    ^
+fileParser.c:89:2: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'char **' [-Wformat=]
+  printf("pattern: %s\n",conv);
+  ^
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 113 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: 
+sslab01 114 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:69:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:69:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 115 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: 
+sslab01 116 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: 
+sslab01 117 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:69:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:69:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 118 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: c.*ookie.bugnut.loppo.*
+sslab01 119 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:10:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:10:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:28:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:40:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:50:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:50:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:56:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:61:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:69:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:69:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:87:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:87:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:106:2: warning: 'return' with no value, in function returning non-void
+  return;
+  ^
+sslab01 120 $ fileParser asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+lDex: 21
+rDex: 43
+asdf/asdfasdf/asdfasf/c*ookie?bugnut?loppo*/fdasfas
+finished: asdf/asdfasdf/asdfasf
+remaining: fdasfas
+pattern: c*ookie?bugnut?loppo*
+pattern: c.*ookie.bugnut.loppo.*
+sslab01 121 $ */*/*
+test-shell/files/aaa: line 1: aaa: command not found
+test-shell/files/aaa: line 2: aaa: command not found
+test-shell/files/aaa: line 3: aaa: command not found
+sslab01 122 $ fileParser */*/*                                              
+Input a directory 5.
+sslab01 123 $ fileParser /*/*
+Input a directory 1172.
+sslab01 124 $ fileParser abbab/*/*
+lDex: 5
+rDex: 7
+abbab/*/*
+finished: abbab
+remaining: *
+pattern: *
+pattern: .*
+sslab01 125 $ a*plko/*/*/*
+-bash: a*plko/*/*/*: No such file or directory
+sslab01 126 $ fileParser a*plko/*/*/*
+lDex: -1
+rDex: 6
+a*plko/*/*/*
+finished: (null)
+remaining: */*/*
+pattern: a*plko
+pattern: a.*plko
+sslab01 127 $ man regcomp
+sslab01 128 $ regular
+Usage:
+      regular regular-expresion string
+
+      Tells if "string" matches "regular-expresion".
+
+      '^' and '$' characters are added at the beginning and
+      end of "regular-expresion" to force match of the entire
+      "string"
+
+	To know more about regular expresions type "man ed"
+Try:
+      bash> ./regular aaa aaa
+      bash> ./regular "a*" aaaa
+      bash> ./regular "a*" aaa
+      bash> ./regular "a*" aaaf
+      bash> ./regular "a.*" akjhkljh 
+      bash> ./regular "a.*" jkjhkj
+      bash> ./regular "a.*" aaalklkjlk
+      bash> ./regular ".*\..*" kljhkljhlj.lkjhlkj
+      bash> ./regular ".*\..*" kljhkljhlj
+
+sslab01 129 $ regular ".*akak.albany" fasdlkfjasakakJalbany
+	"MATCHES" .*akak.albany "fasdlkfjasakakJalbany"
+sslab01 130 $ regular
+Usage:
+      regular regular-expresion string
+
+      Tells if "string" matches "regular-expresion".
+
+      '^' and '$' characters are added at the beginning and
+      end of "regular-expresion" to force match of the entire
+      "string"
+
+	To know more about regular expresions type "man ed"
+Try:
+      bash> ./regular aaa aaa
+      bash> ./regular "a*" aaaa
+      bash> ./regular "a*" aaa
+      bash> ./regular "a*" aaaf
+      bash> ./regular "a.*" akjhkljh 
+      bash> ./regular "a.*" jkjhkj
+      bash> ./regular "a.*" aaalklkjlk
+      bash> ./regular ".*\..*" kljhkljhlj.lkjhlkj
+      bash> ./regular ".*\..*" kljhkljhlj
+
+sslab01 131 $ man regcomp
+sslab01 132 $ man opendir
+sslab01 133 $ gcc -std=c99 fileParser.c -o fileParser
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:101:24: error: 'left' undeclared (first use in this function)
+  if((tameDir = opendir(left)) == NULL){
+                        ^
+fileParser.c:101:24: note: each undeclared identifier is reported only once for each function it appears in
+fileParser.c:104:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:107:18: error: 'DT_DIR' undeclared (first use in this function)
+   if(dp->d_type==DT_DIR){
+                  ^
+fileParser.c:120:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 134 $ man DT_DIR
+No manual entry for DT_DIR
+sslab01 135 $ glibc
+-bash: glibc: command not found
+sslab01 136 $ man gibc
+No manual entry for gibc
+sslab01 137 $ man glibc
+sslab01 138 $ gcc -std=c99 fileParser.c -o -D_DEFAULT_SOURCE fileParser
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:101:24: error: 'left' undeclared (first use in this function)
+  if((tameDir = opendir(left)) == NULL){
+                        ^
+fileParser.c:101:24: note: each undeclared identifier is reported only once for each function it appears in
+fileParser.c:104:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:107:18: error: 'DT_DIR' undeclared (first use in this function)
+   if(dp->d_type==DT_DIR){
+                  ^
+fileParser.c:120:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 139 $ gcc -std=c99 fileParser.c -o -D_BSD_SOURCE fileParser
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:101:24: error: 'left' undeclared (first use in this function)
+  if((tameDir = opendir(left)) == NULL){
+                        ^
+fileParser.c:101:24: note: each undeclared identifier is reported only once for each function it appears in
+fileParser.c:104:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:107:18: error: 'DT_DIR' undeclared (first use in this function)
+   if(dp->d_type==DT_DIR){
+                  ^
+fileParser.c:120:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 140 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:101:24: error: 'left' undeclared (first use in this function)
+  if((tameDir = opendir(left)) == NULL){
+                        ^
+fileParser.c:101:24: note: each undeclared identifier is reported only once for each function it appears in
+fileParser.c:104:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:120:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 141 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:104:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:120:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 142 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:105:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:125:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 143 $ fileParser a*plko/*/*/*
+lDex: -1
+rDex: 6
+a*plko/*/*/*
+finished: (null)
+remaining: */*/*
+pattern: a*plko
+name: mupto
+name: test-shell
+name: environ(7) - Linux manual page_files
+name: .
+name: .git
+name: ..
+name: POSIX Extended Regular Expression Syntax - 1.50.0_files
+sslab01 144 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:105:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:125:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 145 $ fileParser a*plko/*/*/*
+lDex: -1
+rDex: 6
+a*plko/*/*/*
+finished: (null)
+remaining: */*/*
+pattern: a*plko
+name: mupto
+name: test-shell
+name: environ(7) - Linux manual page_files
+name: .
+name: .git
+name: ..
+name: POSIX Extended Regular Expression Syntax - 1.50.0_files
+sslab01 146 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:105:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:125:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 147 $ fileParser a*plko/*/*/*
+lDex: -1
+rDex: 6
+a*plko/*/*/*
+finished: (null)
+remaining: */*/*
+pattern: a*plko
+sslab01 148 $ fileParser m?pto       
+No WildCards found.
+mupto
+sslab01 149 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(2);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(2);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:105:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:125:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 150 $ fileParser m?pto
+No WildCards found.
+mupto
+sslab01 151 $ fileParser mupto\p*y
+lDex: -1
+rDex: -1
+muptop*y
+finished: (null)
+remaining: (null)
+pattern: muptop*y
+sslab01 152 $ fileParser mupto/p*y
+Input a directory 5.
+sslab01 153 $ fileParser mupto/p*y/itwasamistake
+No WildCards found.
+mupto/prasky/itwasamistake
+sslab01 154 $ fileParser "mupto/p*y/itwasamistake"
+lDex: 5
+rDex: 9
+mupto/p*y/itwasamistake
+finished: mupto
+remaining: itwasamistake
+pattern: p*y
+name: prasky
+name: prisky
+name: presky
+name: py
+sslab01 155 $ fileParser "m?pto/"
+lDex: -1
+rDex: 5
+m?pto/
+finished: (null)
+remaining: 
+pattern: m?pto
+name: mupto
+sslab01 156 $ fileParser "m??pto/"
+lDex: -1
+rDex: 6
+m??pto/
+finished: (null)
+remaining: 
+pattern: m??pto
+sslab01 157 $ fileParser "m??pto"
+lDex: -1
+rDex: -1
+m??pto
+finished: (null)
+remaining: (null)
+pattern: m??pto
+sslab01 158 $ fileParser "mupto/*"
+lDex: 5
+rDex: -1
+mupto/*
+finished: mupto
+remaining: (null)
+pattern: *
+name: y
+name: prasky
+name: dostlewaster
+name: prisky
+name: p
+name: angerbot
+name: americorp
+name: .
+name: bogonEX
+name: presky
+name: ..
+name: py
+sslab01 159 $ man closedir
+sslab01 160 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:105:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:128:11: error: expected ';' before 'opendir'
+   tameDir opendir(finished);
+           ^
+fileParser.c:166:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 161 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:105:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:166:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 162 $ fileParser "mupto/*"
+lDex: 5
+rDex: -1
+mupto/*
+finished: mupto
+remaining: (null)
+pattern: *
+We made it to sort anyway...
+.
+..
+americorp
+angerbot
+bogonEX
+dostlewaster
+p
+prasky
+presky
+prisky
+py
+sslab01 163 $ fileParser "mupto/p*y"
+lDex: 5
+rDex: -1
+mupto/p*y
+finished: mupto
+remaining: (null)
+pattern: p*y
+We made it to sort anyway...
+prasky
+presky
+prisky
+sslab01 164 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:107:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:168:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 165 $ fileParser "mupto/p*y"
+lDex: 5
+rDex: -1
+mupto/p*y
+finished: mupto
+remaining: (null)
+pattern: p*y
+converted: p*y
+We made it to sort anyway...
+prasky
+presky
+prisky
+sslab01 166 $ fileParser "mupto/ppppp*y"
+lDex: 5
+rDex: -1
+mupto/ppppp*y
+finished: mupto
+remaining: (null)
+pattern: ppppp*y
+converted: ppppp*y
+We made it to sort anyway...
+sslab01 167 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:107:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:168:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 168 $ fileParser "mupto/ppppp*y"
+lDex: 5
+rDex: -1
+mupto/ppppp*y
+finished: mupto
+remaining: (null)
+pattern: ppppp*y
+converted: ppppp.*y
+We made it to sort anyway...
+sslab01 169 $ fileParser "mupto/p*y"
+lDex: 5
+rDex: -1
+mupto/p*y
+finished: mupto
+remaining: (null)
+pattern: p*y
+converted: p.*y
+We made it to sort anyway...
+prasky
+presky
+prisky
+sslab01 170 $ regular p.*y py
+	"MATCHES" p.*y "py"
+sslab01 171 $ fileParser "mupto/p*"
+lDex: 5
+rDex: -1
+mupto/p*
+finished: mupto
+remaining: (null)
+pattern: p*
+converted: p.*
+We made it to sort anyway...
+americorp
+p
+prasky
+presky
+prisky
+sslab01 172 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen-1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen-1, sizeof(char));
+                ^
+fileParser.c:88:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:88:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:107:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:171:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 173 $ fileParser "mupto/p*"
+lDex: 5
+rDex: -1
+mupto/p*
+finished: mupto
+remaining: (null)
+pattern: p*
+converted: p.*
+prasky
+prisky
+p
+americorp
+presky
+py
+prasky
+prisky
+p
+americorp
+presky
+py
+We made it to sort anyway...
+americorp
+p
+prasky
+presky
+prisky
+sslab01 174 $ regular p.* aaaapaaa
+	"MATCHES" p.* "aaaapaaa"
+sslab01 175 $ regular ^p.*$ aaaapaaa
+	"DOES NOT MATCH" ^p.*$ "aaaapaaa"
+sslab01 176 $ regular ^p.*$ paaa
+	"MATCHES" ^p.*$ "paaa"
+sslab01 177 $ regular $p.*^ paaa
+	"MATCHES" .*^ "paaa"
+sslab01 178 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen+1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen+1, sizeof(char));
+                ^
+fileParser.c:89:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:89:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:108:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:173:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 179 $ fileParser "mupto/p*"
+lDex: 5
+rDex: -1
+mupto/p*
+finished: mupto
+remaining: (null)
+pattern: p*
+converted: ^p.*
+prasky
+prisky
+p
+presky
+py
+prasky
+prisky
+p
+presky
+py
+We made it to sort anyway...
+p
+prasky
+presky
+prisky
+sslab01 180 $ gcc -std=c99 -D_BSD_SOURCE fileParser.c -o fileParser
+In file included from /usr/include/stdio.h:27:0,
+                 from fileParser.c:1:
+/usr/include/features.h:148:3: warning: #warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE" [-Wcpp]
+ # warning "_BSD_SOURCE and _SVID_SOURCE are deprecated, use _DEFAULT_SOURCE"
+   ^
+fileParser.c: In function 'main':
+fileParser.c:11:3: warning: implicit declaration of function 'exit' [-Wimplicit-function-declaration]
+   exit(-1);
+   ^
+fileParser.c:11:3: warning: incompatible implicit declaration of built-in function 'exit'
+fileParser.c:29:18: warning: comparison between pointer and integer
+    if(wild==1&&(i!=(inDir-1))){
+                  ^
+fileParser.c:41:3: warning: incompatible implicit declaration of built-in function 'exit'
+   exit(-1);
+   ^
+fileParser.c:51:3: warning: implicit declaration of function 'malloc' [-Wimplicit-function-declaration]
+   finished = (char*) malloc(flen*sizeof(char));  
+   ^
+fileParser.c:51:22: warning: incompatible implicit declaration of built-in function 'malloc'
+   finished = (char*) malloc(flen*sizeof(char));  
+                      ^
+fileParser.c:57:23: warning: incompatible implicit declaration of built-in function 'malloc'
+   remaining = (char*) malloc(rlen*sizeof(char));  
+                       ^
+fileParser.c:62:20: warning: incompatible implicit declaration of built-in function 'malloc'
+  pattern = (char*) malloc(plen*sizeof(char));
+                    ^
+fileParser.c:70:2: warning: implicit declaration of function 'calloc' [-Wimplicit-function-declaration]
+  char * conv = calloc(2*plen+1, sizeof(char));
+  ^
+fileParser.c:70:16: warning: incompatible implicit declaration of built-in function 'calloc'
+  char * conv = calloc(2*plen+1, sizeof(char));
+                ^
+fileParser.c:89:2: warning: implicit declaration of function 'realloc' [-Wimplicit-function-declaration]
+  realloc(conv, plen+numAster);
+  ^
+fileParser.c:89:2: warning: incompatible implicit declaration of built-in function 'realloc'
+fileParser.c:108:4: warning: incompatible implicit declaration of built-in function 'exit'
+    exit(2);
+    ^
+fileParser.c:174:2: warning: 'return' with no value, in function returning non-void
+  return ;//NULL;
+  ^
+sslab01 181 $ fileParser "mupto/p*"
+lDex: 5
+rDex: -1
+mupto/p*
+finished: mupto
+remaining: (null)
+pattern: p*
+converted: ^p.*
+prasky
+prisky
+p
+presky
+py
+number of matches: 5
+number of counts: 5
+We made it to sort anyway...
+p
+prasky
+presky
+prisky
+py
+sslab01 182 $ fileParser "mupto/p*y"
+

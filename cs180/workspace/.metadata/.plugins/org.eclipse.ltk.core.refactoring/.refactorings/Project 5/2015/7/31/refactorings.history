@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;SystemSolver.java&apos; to &apos;SystemSolve.java&apos;&#x0A;- Original project: &apos;Project 5&apos;&#x0A;- Original element: &apos;SystemSolver.java&apos;&#x0A;- Renamed element: &apos;SystemSolve.java&apos;" description="Rename compilation unit &apos;SystemSolver.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;{SystemSolver.java" name="SystemSolve.java" references="false" stamp="1438178337630" version="1.0"/>
+</session>

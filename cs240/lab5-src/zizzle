@@ -1,0 +1,7 @@
+pwd
+cd
+..
+getenv
+PWD
+printenv
+exit

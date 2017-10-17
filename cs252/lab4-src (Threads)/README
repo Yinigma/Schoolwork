@@ -1,0 +1,8 @@
+3. PrintC is infinitely printing in three separate threads that run in parallel.
+
+5. The main function run an infinite loop before creating the threads, so the two threads that print A and B never run and A and B never get printed.
+
+ 													System  (Kernel) Time  		User Time 			Real Time
+pthread_mutex (count) 	  	  	 					1.200 s						1.532 s				1.441 s
+spin lock (count_spin with thr_yield) 	  	  	  	0.128 s						0.416 s				0.303 s	
+spin_lock (count_spin without thr_yield)  	  	   	0.000 s						1.828 s				0.964 s		

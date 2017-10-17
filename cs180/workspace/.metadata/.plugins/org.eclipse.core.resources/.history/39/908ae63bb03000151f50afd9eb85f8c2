@@ -1,0 +1,20 @@
+public class Q1 {
+	public static int reverse(int num){
+		int c = 0;
+		int result = 0;
+		while(num!=0){
+			while(num%10!=0){
+				c++;
+				num--;
+			}
+			num/=10;
+			result+=c;
+			result*=10;
+			c=0;
+		}
+		return result/10;
+	}
+	public static int reverse(int num, int g){
+		
+	}
+}

@@ -1,0 +1,16 @@
+public class Q4 {
+	public static String decimalToHex(String num){
+		int dec = 0;
+		try{
+			dec = Integer.parseInt(num);
+		}
+		catch(NumberFormatException e){
+			return "Number format exception";
+		}
+		
+	}
+	public static char charCon(int i){
+		char res = 'A';
+		return (char) (res+i-10);
+	}
+}

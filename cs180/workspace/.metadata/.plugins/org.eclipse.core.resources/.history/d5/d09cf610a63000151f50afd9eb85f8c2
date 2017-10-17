@@ -1,0 +1,7 @@
+
+public class Tester {
+	public static void main(String[] args){
+		System.out.println(Q1.reverse(1234));
+		System.out.println(Q2.ascending(new int[] {2,2,3,4}));
+	}
+}

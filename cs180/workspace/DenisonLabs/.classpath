@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="LabDay2"/>
+	<classpathentry kind="src" path="LabDay3"/>
+	<classpathentry kind="src" path="LabDay4"/>
+	<classpathentry kind="src" path="LabDay5"/>
+	<classpathentry kind="src" path="LabDay6"/>
+	<classpathentry kind="src" path="LabDay7"/>
+	<classpathentry kind="src" path="LabDay8"/>
+	<classpathentry kind="src" path="LabDay9"/>
+	<classpathentry kind="src" path="LabDay10"/>
+	<classpathentry kind="src" path="LabDay11"/>
+	<classpathentry kind="src" path="LabDay12"/>
+	<classpathentry kind="src" path="LabDay13"/>
+	<classpathentry kind="src" path="LabDay14"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/4"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

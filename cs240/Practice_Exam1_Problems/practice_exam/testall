@@ -1,0 +1,25 @@
+#!/bin/bash
+
+echo "======Running Global Testall======"
+
+gradeTotal=0
+
+for d in */ ; do
+#get_grade gets the score in the format x/20
+#get_score gets x
+#get_total gets "20"
+	cd $d
+	input=$(testall)
+	get_grade=$(echo -n $input | tail -c 5)
+	make clean
+	cd ..
+	get_score=${get_grade%/*}
+	get_total=$(echo -n $get_grade | tail -c 2)
+	gradeTotal=$[$gradeTotal+$get_score]
+	echo "${d%?}: $get_score/$get_total"
+done
+
+echo
+echo   "CS240: Practice Exam 1" 
+echo  "User: $USER" 
+echo "Final Grade: $gradeTotal/100"

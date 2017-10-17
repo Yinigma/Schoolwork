@@ -1,0 +1,62 @@
+#!/bin/bash
+
+# Test driver
+function runtest {
+  prog=$1
+  args=$2
+  testinput=$3
+
+  #get the right directory
+
+  testP=$(echo problem*)
+  testProg=$(echo "${testP%%.*}")
+  inputdescr=
+  if [ "$testinput" != "none" ]; then
+      inputdescr=" < $testinput"
+  fi
+  descr="$prog $args $inputdescr"
+  
+  #Run tested program
+  ./$prog $args < $testinput > $prog.out 
+  if [ $? -ne 0 ]; then
+      echo Cannot run ./$prog
+      cat $prog.out
+      echo
+      echo ">>>Test Failed<<<";
+      echo
+      return
+  fi
+
+  #Run original program
+ $prog.org $args< $testinput > $prog.org.out 
+ if [ $? -ne 0 ]; then
+      echo Cannot run ./$prog.org
+      cat $prog.org.out
+      echo
+      echo ">>>Test Failed<<<";
+      echo
+      return
+  fi
+
+  #Pass or fail determined by diff
+  diff $prog.out $prog.org.out > diff.out
+  if [ $? -eq 0 ]; then
+      echo
+      echo ">>>Test passed<<<";
+      echo
+      let grade+=1
+#      exit 0
+  else
+      echo
+      echo ">>>Test Failed<<<";
+      echo
+      echo ------ Your Output ----------
+      cat $prog.out
+      echo ------ Expected Output ------
+      cat $prog.org.out
+      echo ------ Difference -----------
+      cat diff.out
+      echo -----------------------------
+      #exit 1
+  fi
+}

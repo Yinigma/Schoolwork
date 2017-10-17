@@ -1,0 +1,8 @@
+CS 252: Systems programming assignments
+Taken in Summer of 2016
+
+Lab 1: Assignment was to create a free function (malloc was already written for us)
+Lab 2: Bash script lab
+Lab 3: Shell project. Use Lex and Yacc to create a shell program in linux. Supports piping and wildcards
+Lab 4: Threads. Simple exercise where we were to correct a trivial race condition
+Lab 5: Client server. Create a client program that would send requests to a server program and have that server program send an html document back.

@@ -1,0 +1,8 @@
+mytest test1                        : 6   of 6  
+mytest test2                        : 6   of 6  
+mytest test3                        : 2   of 2  
+mytest test4                        : 2   of 2  
+mytest test5                        : 2   of 2  
+mytest test6                        : 2   of 2  
+mytest test7                        : 2   of 2  
+mytest test8                        : 2   of 2  

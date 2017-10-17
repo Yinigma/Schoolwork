@@ -1,0 +1,29 @@
+#!/bin/bash
+
+(make clean; make) || exit 1
+
+rm -f total.txt *out total.txt
+
+source ../../tester/testall
+
+echo "======= Running Test ==========="
+
+if [ $? -eq 0 ]; then
+	grade=0
+	echo "Running Test1"
+	runtest mytest "test1" ../../tester/none
+	echo "Running Test2"
+	runtest mytest "test2" ../../tester/none
+	echo "Running Test3"
+	runtest mytest "test3" ../../tester/none
+	echo "Running Test4"
+	runtest mytest "test4" ../../tester/none
+	grade=$((grade * 15))
+
+	printf "Grade %d/60\n" "$grade"
+else
+    echo
+    echo ">>>Test Failed<<<";
+    echo 
+    exit 1		
+fi

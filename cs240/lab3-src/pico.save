@@ -1,0 +1,73 @@
+
+#include <string.h>
+#include <stdio.h>
+#include <errno.h>
+#include <stdlib.h>
+#include <math.h>
+
+#include "rpn.h"
+#include "nextword.h"
+#include "stack.h"
+
+double rpn_eval(char * fileName, double x) {
+
+    char* w;
+    int s=0;
+
+    FILE * fd = fopen(fileName, "r");
+    if (fd == NULL) {
+        printf("Could not open file %s\n", fileName);
+        exit(1);
+    }
+    while ((w = nextword(fd)) != NULL) {
+        if((*w-'0')>-1&&(*w-'0')<10){
+            stack_push(strtod(w,NULL));
+		printf("read as int\n");
+        }
+        else if(*w='x'){
+            stack_push(x);
+		printf("read as x\n");
+        }
+        else{
+            s = stack_pop();
+		printf("Character pointed to: %c\n",*w);
+            switch(*w){
+                case '+':
+                    stack_push(stack_pop()+s);
+			printf("read as plus\n");
+                    break;
+                case '-':
+                    stack_push(stack_pop()-s);
+			printf("Read as minus\n");
+                    break;
+                case '*':
+                    stack_push(stack_pop()*s);
+			printf("Read as asterisk\n");
+                    break;
+                case '/':
+                    stack_push(stack_pop()/s);
+			printf("read as forward slash\n");
+                    break;
+            }
+            if(strcmp(w,"sin")){
+                stack_push(sin(s));
+            }
+            if(strcmp(w,"cos")){
+                stack_push(cos(s));
+            }
+            if(strcmp(w,"tan")){
+                stack_push(tan(s));
+            }
+            if(strcmp(w,"pow")){
+                stack_push(pow(stack_pop(),s));
+            }
+            if(strcmp(w,"log")){
+                stack_push(log(s));
+            }
+            if(strcmp(w,"exp")){
+                stack_push(exp(s));
+            }
+        }
+    }
+    return stack_pop();
+}

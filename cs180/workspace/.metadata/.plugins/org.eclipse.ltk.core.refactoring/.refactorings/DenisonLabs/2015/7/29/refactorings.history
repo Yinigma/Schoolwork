@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;VolumeOverFlowExcetion&apos; to &apos;VolumeOverFlowException&apos;&#x0A;- Original project: &apos;DenisonLabs&apos;&#x0A;- Original element: &apos;VolumeOverFlowExcetion&apos;&#x0A;- Renamed element: &apos;VolumeOverFlowException&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;VolumeOverFlowExcetion&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/LabDay10&lt;{VolumeOverFlowExcetion.java[VolumeOverFlowExcetion" matchStrategy="1" name="VolumeOverFlowException" qualified="false" references="true" similarDeclarations="false" stamp="1436992256327" textual="false" version="1.0"/>
+</session>

@@ -1,0 +1,13 @@
+import java.io.IOException;
+
+
+public class Q4 {
+	public static String decimalToHex(String num){
+		try{
+			Integer.parseInt(num);
+		}
+		catch(){
+			
+		}
+	}
+}

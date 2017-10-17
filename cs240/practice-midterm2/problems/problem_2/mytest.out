@@ -1,0 +1,7 @@
+Running test4
+a:
+countBits(a,1)=0
+countBits(a,0)=0
+b:
+countBits(b,1)=0
+countBits(b,0)=0

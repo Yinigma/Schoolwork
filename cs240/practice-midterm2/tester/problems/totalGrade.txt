@@ -1,0 +1,6 @@
+problem_1: 24/24
+problem_2: 24/24
+problem_3: 24/24
+
+CS240: Exam2. pheldrin Sun Oct 18 00:27:35 EDT 2015
+Total Grade: 72/72

@@ -1,0 +1,28 @@
+public class Q4 {
+	public static String decimalToHex(String num){
+		int dec = 0;
+		String res = "";
+		try{
+			dec = Integer.parseInt(num);
+		}
+		catch(NumberFormatException e){
+			return "Number format exception";
+		}
+		if(dec<16){
+			res+=charCon(dec);
+		}
+		else{
+			res+=charCon(dec%16);
+			dec/=16;
+			decimalToHex(""+dec);
+		}
+		return res;
+	}
+	public static char charCon(int i){
+		if(i<10){
+			return (char) ('0'+i);
+		}
+		char res = 'A';
+		return (char) (res+i-10);
+	}
+}

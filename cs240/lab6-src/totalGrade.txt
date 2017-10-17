@@ -1,0 +1,6 @@
+problems/arraylist-src: 100/100
+problems/dllist-src: 21/21
+problems/mysort-src: 21/21
+
+CS240: LAB6. bdenison Mon Dec 7 19:18:30 EST 2015
+Total Grade: 142/142

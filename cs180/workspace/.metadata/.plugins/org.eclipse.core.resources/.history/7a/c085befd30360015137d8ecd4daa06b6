@@ -1,0 +1,58 @@
+import java.io.BufferedReader;
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Scanner;
+
+public class Stats {
+	
+	public static HashMap<String,Integer> wins(){
+		BufferedReader b;
+		Integer i;
+		HashMap<String, Integer> map = new HashMap<String, Integer>();
+		try{
+			//System.out.println(System.getProperty("user.dir"));
+			b = new BufferedReader(new FileReader("input.txt"));
+			while(b.readLine()!=null){
+				String[] winners;
+				String[] tokens = b.readLine().split("vs.");
+				if(new Scanner(tokens[0]).nextInt()==1){
+					System.out.println("here");
+					tokens[0] = tokens[0].substring(1);
+					winners = tokens[0].split(" ");
+				}
+				else{
+					winners = tokens[1].split(" ");
+				}
+				for(String s: winners){
+					i = map.get(s);
+					if(i==null){
+						map.put(s, 1);
+					}
+					else{
+						map.put(s, i++);
+					}
+				}
+			}
+		}
+		catch(IOException e){
+			System.out.println("file failed to load!");
+		}
+		return map;
+	}
+	public static String winner(){
+		HashMap<String, Integer> map = wins();
+		String winner = "";
+		int biggest = 0;
+		for(String s: map.keySet()){
+			if(map.get(s)>biggest){
+				winner = s;
+				biggest = map.get(s);
+			}
+		}
+		return winner;
+	}
+	
+	
+}
